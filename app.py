@@ -65,4 +65,4 @@ if st.sidebar.button("Run Monte Carlo Simulation"):
         
         st.plotly_chart(fig, use_container_width=True)
 else:
-    st.info("👈 Adjust your client parameters in the sidebar and click **Run Monte Carlo Simulation** to generate the model.")
+    st.info("Adjust your client parameters in the sidebar and click **Run Monte Carlo Simulation** to generate the model.")
